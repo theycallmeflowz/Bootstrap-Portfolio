@@ -292,22 +292,23 @@ body { background-color: #ddd; }
     transition: all .5s;
 }
 
-.transition-scale (@scale) {
-    -webkit-transform: scale(@scale);
-    -moz-transform: scale(@scale);
-    -ms-transform: scale(@scale);
-    -o-transform: scale(@scale);
-    transform: scale(@scale);
+.transition-scale {
+    -webkit-transform: scale;
+    -moz-transform: scale;
+    -ms-transform: scale;
+    -o-transform: scale;
+    transform: scale;
 }
 
 /* Ul styles */
 ul { 
   list-style: none; 
-  > li {
+ } 
+ 
+ li {
     display: inline;
     margin-right: 20px;
   }
-}
 
 /*
 * Icon styles
@@ -322,10 +323,10 @@ ul {
   height: 50px;
   border-radius: 50%;
   font-size: 24px;
-  color: @white-color;
+  color: white-color;
   line-height: 52px;
   text-align: center;
-  background-color: @main-color;
+  background-color: main-color;
 }
 
 .icon:after {
