@@ -234,10 +234,10 @@ body, html {
 	font-family: 'Open Sans', sans-serif;
 }
 
-body{
+/* body{ */
 	/* background-image: url("../images/img_parallax.jpg"); */
 	
-}
+/* } */
 
 .parallax { 
     /* The image used */
@@ -277,92 +277,4 @@ body{
     right:0px;
     bottom:0px;
     overflow-y: scroll;        
-}​
-
-
-
-/* Mixins */
-body { background-color: #ddd; }
-
-  .transition-animation {
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -ms-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-}
-
-.transition-scale {
-    -webkit-transform: scale;
-    -moz-transform: scale;
-    -ms-transform: scale;
-    -o-transform: scale;
-    transform: scale;
-}
-
-/* Ul styles */
-ul { 
-  list-style: none; 
- } 
- 
- li {
-    display: inline;
-    margin-right: 20px;
-  }
-
-/*
-* Icon styles
-*
-* There are styles for icon and everything which are connected with it.
-*/
-.icon {
-  display: inline-block;
-  position: relative;
-  z-index: 1;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  font-size: 24px;
-  color: white-color;
-  line-height: 52px;
-  text-align: center;
-  background-color: main-color;
-}
-
-.icon:after {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    content: '';
-    box-sizing: content-box;
-  }
-
-/* Hover effect */
-.icon-effect .icon {
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -ms-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-}
-
-.icon-effect .icon:after {
-    top: -7px;
-    left: -7px;
-    padding: 7px;
-    box-shadow: 0 0 0 4px white-color;
-   .transition-animation; // mixins
-   .transition-scale(.8); // mixins
-    opacity: 0;
-}
-
-.icon-effect-1a .icon:hover {
-    background-color: white-color;
-    color: main-color;
-}
-
-.icon-effect-1a .icon:hover:after {
-    .transition-scale(1); // mixins
-    opacity: 1;
 }
