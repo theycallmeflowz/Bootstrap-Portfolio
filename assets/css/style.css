@@ -340,22 +340,26 @@ ul {
 
 /* Hover effect */
 .icon-effect .icon {
-  .transition-animation;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 
 .icon-effect .icon:after {
     top: -7px;
     left: -7px;
     padding: 7px;
-    box-shadow: 0 0 0 4px @white-color;
+    box-shadow: 0 0 0 4px white-color;
    .transition-animation; // mixins
    .transition-scale(.8); // mixins
     opacity: 0;
 }
 
 .icon-effect-1a .icon:hover {
-    background-color: @white-color;
-    color: @main-color;
+    background-color: white-color;
+    color: main-color;
 }
 
 .icon-effect-1a .icon:hover:after {
