@@ -189,9 +189,9 @@ height: 100%;
 padding: 15px;
 }
 
-#section1{
+/* #section1{
     background-image: url("../images/blurred0.png");
-}
+} */
 
 #section2{ 
     margin: 20px auto 20px auto;
@@ -342,7 +342,7 @@ body {
 	background-color: #db5a3c;
 }
 
-/* Icons */
+/* Icons
 .icon-button i {
 	background: none;
 	color: white;
@@ -371,7 +371,7 @@ body {
 .icon-button:hover .icon-facebook,
 .icon-button:hover .icon-google-plus {
 	color: white;
-}
+} */
 
 footer{
     background-color: #f8f8f8;
